@@ -19,12 +19,10 @@ Thus, the IAM policy would look like:
 {
   "Version": "2012-10-17",
   "Statement": [
-    
     {
       "Effect": "Allow",
       "Action": "secretsmanager:GetSecretValue",
       "Resource": "arn:aws:secretsmanager:ap-southeast-1:123456789012:secret:prod/cart-service/credentials-abcdef"
     }
-  
   ]
 }
